@@ -1,0 +1,213 @@
+.pd-64 {
+    padding: 64px 0px;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: "Inconsolata", sans-serif;
+}
+/*Header*/
+.header {
+    background-color: #000;
+    height: 54px;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.nav > ul {
+    display: flex;
+    justify-content: space-around;
+}
+.nav > ul > li > a{
+    color: #fff;
+    display: block;
+    line-height: 54px;
+    font-size: 12px;
+    padding: 0px 16px;
+    text-decoration: none;
+} 
+.nav > ul > li > a:hover {
+    background-color: #ccc;
+    color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}
+/*Main*/
+.main {
+    background-color: #fdf5e6;
+    filter: grayscale(75%);
+    padding-bottom: 64px;
+    padding: 0px 64px;
+}
+/*Slider*/
+.slider {
+    background-image: url("https://www.w3schools.com/w3images/coffeehouse.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    filter: grayscale(50%);
+    margin-top: 54px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 93%;
+}
+.title > span {
+    color: #fff;
+    font-size: 70px;
+}
+.des > ul{
+    display: flex;
+    justify-content: space-between;
+}
+.des > ul >li:not(.des > ul >li:last-child) {
+    background-color: #000;
+    margin-left: 21px;
+}
+.des > ul > li {
+    color: #fff;
+    padding: 4px 8px;
+    margin-right: 21px;
+    letter-spacing: 1px;
+}
+/*About*/
+.row{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+.title {
+    text-align: center;
+    
+}
+.title > h4 {
+    background-color: #000;
+    color: #fff;
+    display: inline;
+    padding: 8px 16px;
+    letter-spacing: 8px;
+}
+.about_content {
+    margin-top: 70px;
+    font-size: 21px;
+    margin-bottom: 21px;
+    line-height: 30px;
+}
+.about_quote {
+    background-color: #f1f1f1;
+    border-left: solid 8px #ccc;
+    font-size: 21px;
+    padding: 21px 16px;
+    letter-spacing: 1px;
+}
+.about_quote > p{
+    font-style: italic;  
+}
+.image {
+    margin-top: 21px;
+}
+.image > img{
+    width: 100%;
+}
+.about_des {
+    margin-top: 21px;
+    font-size: 21px;
+}
+.about_des > p > span {
+    font-weight: 700;
+}
+/*Menu*/
+.table_title {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    box-shadow: 0px 0px 5px 0px;
+}
+.title_modifier {
+    text-align: center;
+    padding: 8px 100px;
+    font-size: 21px;
+}
+.title_modifier:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+.table_content {
+    box-shadow: 0px 0px 5px 0px;
+    margin-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 46px;
+    margin-bottom: 32px;
+}
+.content_title {
+    padding-top: 46px;
+    margin-bottom: 21px;
+    font-size: 30px;
+}
+.content_des {
+    color: #757575;
+    font-size: 18px;
+}
+/*Adress*/
+.adr_content {
+    margin-top: 64px;
+    font-size: 21px;
+}
+.adr_text {
+    margin-top: 16px;
+    font-size: 21px;
+    line-height: 30px;
+}
+.adr_text >  span {
+    background-color: #000;
+    color: #fff;
+    padding: 0px 10px;
+}
+.adr_input {
+    font-size: 21px;
+    margin-top: 21px;
+}
+.adr_input > p > strong {
+    font-weight: bolder;
+}
+.adr_input_content > input:not(.adr_input_content > input:last-child){
+    display: block;
+    padding: 13px 21px;
+    width: 100%;
+    margin-top: 18px;
+    font-size: 18px;
+}
+.adr_input_content > input:last-child {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 13px;
+    margin-top: 16px;
+    border: none;
+    outline: none;
+}
+.adr_input_content > input:last-child:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    transition: ease-in-out 0.4s;
+    color: #000;
+}
+/*Footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 64px 0px;
+    font-size: 21px;
+}
+.footer > span > a:hover {
+    color: green;
+}
